@@ -1,0 +1,10 @@
+[package]
+name = "backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gstreamer = "0.19"
+gstreamer-video = "0.19"
+gstreamer-rtsp-server = "0.19"
+tokio = { version = "1", features = ["full"] }
